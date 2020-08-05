@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosDeReserva">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/et_name"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/et_surname"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bt_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fecha"
+            android:text="@string/bt_date"
+            android:textSize="24sp"
+            android:minDate="1\1\2020\"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_fecha"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/et_cant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/et_cant"
+            android:inputType="number"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/et_phone"
+            android:inputType="phone"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bt_confirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="agregarReserva"
+            android:text="@string/bt_confirmar"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bt_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Cancelar"
+            android:text="@string/bt_cancelar"
+            android:textSize="24sp" />
+    </LinearLayout>
+</RelativeLayout>
