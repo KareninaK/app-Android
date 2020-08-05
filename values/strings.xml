@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CRSN Cantina</string>
+
+    <string name="txt_cantina">CANTINA</string>
+    <string name="bt_entrar">RESERVAR MESA</string>
+
+    <string name="et_name">Ingrese su nombre</string>
+    <string name="et_surname">Ingrese su apellido</string>
+    <string name="tv_fecha"> </string>
+    <string name="bt_date">Seleccione la fecha</string>
+    <string name="et_cant">Ingrese el numero de personas</string>
+    <string name="et_phone">Ingrese su numero de teléfono</string>
+    <string name="bt_confirmar">Confirmar reserva</string>
+    <string name="bt_buscar">Buscar</string>
+    <string name="bt_cancelar">CANCELAR</string>
+
+
+    <string name="tv_datos">Reserva confirmada</string>
+    <string name="txt_name"></string>
+    <string name="txt_surname"></string>
+    <string name="txt_fecha"></string>
+    <string name="txt_personas"></string>
+    <string name="txt_tel"></string>
+    <string name="cantidad"></string>
+    <string name="tv_text">Para modificar/cancelar una reservar debe comunicarse presionando uno de los botones a continuación</string>
+    <string name="call1">0336-4447833</string>
+    <string name="Call2">0336-4294487</string>
+    <string name="bt_salir">Salir</string>
+
+</resources>
